@@ -18,6 +18,8 @@ const darkTheme = localStorage.getItem("darkTheme");
 if (darkTheme === "true") {
     setDarkTheme(true);
     document.querySelector("#theme-switch").checked = true;
+} else {
+    setDarkTheme(false);
 }
 
 // toggle
